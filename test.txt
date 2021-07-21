@@ -1,2 +1,3 @@
 nano dwm
-dmenu2
+vim
+nano-syntax-highlighting
