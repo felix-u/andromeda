@@ -1,0 +1,4 @@
+nano dwm
+vim
+nano-syntax-highlighting
+

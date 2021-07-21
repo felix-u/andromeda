@@ -1,0 +1,3 @@
+fake-not-real
+its-not-real
+this-is-a-fake-package
