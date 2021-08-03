@@ -1,1 +1,0 @@
-cp ./andromeda /usr/bin/
