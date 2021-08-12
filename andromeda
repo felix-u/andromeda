@@ -9,11 +9,11 @@ failCount=0
 for (( pkgNum=1; pkgNum<=$pkgCount; pkgNum++ )); do
     # use tr and cut to save individual package to variable
     pkg=$(tr -s "\n" " " < $1 | cut -d " " -f $pkgNum)
-   
+
    # install the package if pkg isn't an empty variable
-    if [ ! -z "$pkg" -a "$pkg" != " " ]; then 
+    if [ ! -z "$pkg" -a "$pkg" != " " ]; then
         paru -S $pkg --noconfirm
-        
+
         # check error code for success
         check=$(echo $?)
         if [ $check != 0 ]; then
